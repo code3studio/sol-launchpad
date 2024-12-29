@@ -24,13 +24,13 @@ const Header = (props: Props) => {
             Home
           </Link>
           <Link
-            href="https://gitbook.io"
+            href="https://solgptai.gitbook.io/solgptai-guide"
             className="duration-500 cursor-pointer delay-600 animate-in fade-in zoom-in hover:text-tealClr"
           >
             Guide
           </Link>
           <Link
-            href="https://github.io"
+            href="https://github.com/SolGPTAI/docs"
             className="duration-500 cursor-pointer delay-600 animate-in fade-in zoom-in hover:text-tealClr"
           >
             Github
@@ -40,7 +40,7 @@ const Header = (props: Props) => {
         <div className="flex items-center justify-center gap-4">
           <nav className="hidden gap-4 lg:flex">
             {/* <!-- Twitter SVG--> */}
-            <Link href="/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://x.com/AISolGPT" target="_blank" rel="noopener noreferrer">
               <svg
                 width="23"
                 height="23"
@@ -57,7 +57,7 @@ const Header = (props: Props) => {
             </Link>
 
             {/* <!-- Discord SVG --> */}
-            <Link href="/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://t.me/solgptai" target="_blank" rel="noopener noreferrer">
             <svg
           viewBox="0 0 24 24"
          fill="none"
@@ -102,7 +102,7 @@ const Header = (props: Props) => {
                 <Link
                   onClick={() => setShowSidebar(false)}
                   className="SidebarLink"
-                  href="/about"
+                  href="https://solgptai.gitbook.io/solgptai-guide"
                 >
                   <Info size={28} />
                   <div className="text-[0.8em]">GitHub</div>
@@ -110,7 +110,7 @@ const Header = (props: Props) => {
                 <Link
                   onClick={() => setShowSidebar(false)}
                   className="SidebarLink"
-                  href="/contact"
+                  href="https://github.com/SolGPTAI/docs"
                 >
                   <Wrench size={28} />
                   <div className="text-[0.8em]">Guide</div>
@@ -118,7 +118,7 @@ const Header = (props: Props) => {
                 <Link
                   onClick={() => setShowSidebar(false)}
                   className="SidebarLink"
-                  href="/"
+                  href="https://x.com/AISolGPT"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -142,7 +142,7 @@ const Header = (props: Props) => {
                 <Link
                   onClick={() => setShowSidebar(false)}
                   className="SidebarLink"
-                  href="/"
+                  href="https://t.me/solgptai"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
