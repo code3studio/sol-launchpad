@@ -115,7 +115,6 @@ export default function Home() {
       <Features />
       <Separator className="w-[90%] mx-auto my-10 lg:my-20" />
       {/* Services section */}
-      <Separator className="w-[90%] mx-auto my-10 lg:my-20" />
       {/* FAQ section */}
       <FAQ />
       <Separator className="w-[90%] mx-auto my-10 lg:my-20" />
