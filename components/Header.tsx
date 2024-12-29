@@ -2,7 +2,6 @@
 import { Logo } from "@images";
 import Image from "next/image";
 import Link from "next/link";
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { Home, Info, Menu, Mail, FileText } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
@@ -25,28 +24,16 @@ const Header = (props: Props) => {
             Home
           </Link>
           <Link
-            href="/about"
+            href="https://gitbook.io"
             className="duration-500 cursor-pointer delay-600 animate-in fade-in zoom-in hover:text-tealClr"
           >
-            About
+            Guide
           </Link>
           <Link
-            href="/contact"
+            href="https://github.io"
             className="duration-500 cursor-pointer delay-600 animate-in fade-in zoom-in hover:text-tealClr"
           >
-            Contact
-          </Link>
-          <Link
-            href="/token-creator"
-            className="duration-500 cursor-pointer delay-600 animate-in fade-in zoom-in hover:text-tealClr"
-          >
-            Token Creator
-          </Link>
-          <Link
-            href="/nft-creator"
-            className="duration-500 cursor-pointer delay-600 animate-in fade-in zoom-in hover:text-tealClr"
-          >
-            NFT Creator
+            Github
           </Link>
         </nav>
 
@@ -88,7 +75,7 @@ const Header = (props: Props) => {
             </Link>
           </nav>
 
-          <WalletMultiButton />
+  
 
           <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
             <SheetTrigger asChild>

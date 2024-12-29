@@ -8,24 +8,24 @@ import {
 
 const faqs = [
   {
-    question: "What is a token launchpad?",
+    question: "How do I get started?",
     answer:
-      "A token launchpad is a platform that helps projects launch and distribute their tokens to early supporters and investors.",
+      "Navigate to our GitHub to get started with configuration. If you need further assistance view our guide.",
   },
   {
-    question: "How do I create my own token?",
+    question: "Do I need to use the ChatGPT API?",
     answer:
-      "You can create your own token using our Token Creator page. The process is simple and guided, allowing you to customize your token's features and distribution.",
+      "Yes, as of now this Agent uses ChatGPT 4o-mini. Priced at 15 cents per million input tokens and 60 cents per million output tokens",
   },
   {
-    question: "What blockchains do you support?",
+    question: "Will you include other AI models?",
     answer:
-      "We currently support Ethereum, Binance Smart Chain, and Polygon. More chains will be added in the future.",
+      "We are currently building support for Claude and Sonnet models to focus on blockchain tasks.",
   },
   {
-    question: "How are token sales conducted?",
+    question: "What is the $token used for?",
     answer:
-      "Token sales can be conducted through various mechanisms such as fixed price sales, Dutch auctions, or bonding curves. You can choose the best method for your project.",
+      "Tokens will be used to unlock further token gated updates like a webUI, social media integration, and further AI support.",
   },
 ];
 

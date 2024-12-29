@@ -25,15 +25,14 @@ const features = [
     icon: <Zap color="white" />,
   },
   {
-    title: "Multi-Chain Support",
-    description: "Launch your token on multiple blockchains effortlessly.",
+    title: "Multi-DEX Support",
+    description: "Launch your tokens on multiple solutions effortlessly.",
     icon: <Link color="white" />,
   },
   {
-    title: "Community Governance",
-    description: "Empower your token holders with built-in voting mechanisms.",
+    title: "Balance Checks",
+    description: "Check all the balanaces on your wallets in one moment.",
     icon: <Vote color="white" />,
-    comingSoon: true,
   },
   {
     title: "Token LP",
@@ -46,22 +45,20 @@ const features = [
     icon: <Palette color="white" />,
   },
   {
-    title: "Custom Setup",
+    title: "Autonomous Modes",
     description:
-      "Tailored project setup and assistance for your specific needs.",
+      "Tailor the autonomous mode for your specific needs.",
     icon: <Wrench color="white" />,
   },
   {
-    title: "OTC Markets",
-    description: "Access over-the-counter markets for token trading.",
+    title: "AI Integrations",
+    description: "Integrate your Agent with ChatGPT to leverage AI",
     icon: <BarChart2 color="white" />,
-    comingSoon: true,
   },
   {
     title: "Staking Mechanism",
-    description: "Staking features coming soon to boost token utility.",
+    description: "Allows you to effortly stake solana to boost token utility.",
     icon: <Layers color="white" />,
-    comingSoon: true,
   },
 ];
 
@@ -103,11 +100,6 @@ export default function Features() {
                   {feature.title}
                 </h3>
                 <p className="text-slate-300">{feature.description}</p>
-                {feature.comingSoon && (
-                  <span className="inline-block px-2 py-1 mt-2 text-xs font-semibold text-teal-400 bg-teal-900 rounded-full">
-                    Coming Soon
-                  </span>
-                )}
               </div>
             </MagicCard>
           </motion.div>

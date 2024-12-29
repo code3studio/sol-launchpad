@@ -19,9 +19,9 @@ export const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Solana | Launchpad",
+  title: "SolGPTAI",
   description:
-    "A Solana Launchpad to showcase Projects and launch tokens & mint NFT's.",
+    "Cutting Edge Solana AI agent",
 };
 
 export default function RootLayout({

@@ -16,31 +16,38 @@ interface LaunchpadItem {
 
 const launchpadItems: LaunchpadItem[] = [
   {
-    name: "Project Submitted",
-    description: "New Solana project",
+    name: "Enter CA",
+    description: "Snipe New Solana projects",
     time: "15m ago",
-    icon: "🚀",
+    icon: "🎯",
     color: "#00C9A7",
   },
   {
-    name: "Funding Milestone",
-    description: "Project X reached 50%",
+    name: "Token Deployed",
+    description: "AI Launch on Pump.fun",
     time: "10m ago",
     icon: "💰",
     color: "#FFB800",
   },
   {
-    name: "Community Update",
-    description: "Project Y AMA session",
+    name: "Swap Any Token",
+    description: "25% Sol Swap to $coin",
     time: "5m ago",
-    icon: "👥",
+    icon: "🔁",
     color: "#FF3D71",
   },
   {
-    name: "Launch Countdown",
-    description: "Project Z launches in 24h",
+    name: "AI Integrations",
+    description: "Create Custom Tools",
     time: "2m ago",
-    icon: "⏳",
+    icon: "⛏️",
+    color: "#1E86FF",
+  },
+  {
+    name: "Launch & Mint NFTs",
+    description: "Deployment & Minting using Metaplex",
+    time: "1m ago",
+    icon: "👽",
     color: "#1E86FF",
   },
 ];
@@ -93,14 +100,14 @@ const SolanaLaunchpadCTA = () => {
       <div className="flex flex-col items-center justify-center w-full pt-20">
         <GradualSpacing
           className="font-display text-center text-4xl font-bold -tracking-widest text-slate-50 dark:text-white md:text-7xl md:leading-[5rem]"
-          text="Solana Launchpad"
+          text="SolGPTAI"
         />
       </div>
       <div className="flex flex-col items-center justify-center py-4">
         <span className="flex items-center px-4 py-3 transition-all duration-300 ease-in-out border border-teal-500 rounded-full group text-slate-50 hover:bg-teal-500/10">
           <Rocket className="w-4 h-4 mr-2 text-teal-500 transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:rotate-12" />
           <span className="transition-all duration-300 ease-in-out group-hover:scale-105">
-            Launch Your Project
+            Launch Your AI Agent
           </span>
         </span>
       </div>
