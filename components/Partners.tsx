@@ -23,7 +23,7 @@ const Footer = () => {
                   transition={{ duration: 0.5, delay: 0 }}
                 >
                   <Link
-                    href="https://github.com"
+                    href="https://github.com/SolGPTAI/docs"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-center text-teal-400 hover:text-teal-600"
@@ -47,7 +47,7 @@ const Footer = () => {
                   transition={{ duration: 0.5, delay: 0.1 }}
                 >
                   <Link
-                    href="https://gitbook.com"
+                    href="https://solgptai.gitbook.io/solgptai-guide"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-center text-teal-400 hover:text-teal-600"
@@ -71,7 +71,7 @@ const Footer = () => {
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
                   <Link
-                    href="https://twitter.com"
+                    href="https://x.com/AISolGPT"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-center text-teal-400 hover:text-teal-600"
@@ -95,7 +95,7 @@ const Footer = () => {
                   transition={{ duration: 0.5, delay: 0.3 }}
                 >
                   <Link
-                    href="https://telegram.org"
+                    href="https://t.me/solgptai"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-center text-teal-400 hover:text-teal-600"
